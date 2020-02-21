@@ -64,6 +64,10 @@ class Person
     "Hi #{person_instance.name}! It's #{@name}. How are you?"
   end
 
+  def start_conversation(person_instance, topic)
+    
+  end
+
   def limit(num)
     min = 0
     max = 10
