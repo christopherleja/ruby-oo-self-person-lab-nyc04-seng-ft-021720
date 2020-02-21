@@ -46,14 +46,14 @@ class Person
     "♪ another one bites the dust ♫"
   end
 
-  def limit=(integer)
-    if integer < 0
-      hygiene = 0
+  def limit(num)
+    if num < 0
+      num = 0
     elsif
-      integer > 10
-      hygiene = 10
+      num > 10
+      num = 10
     else
-      hygiene = integer
+      num
     end
   end
   
