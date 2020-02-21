@@ -47,6 +47,8 @@ class Person
   end
 
   def limit(num)
+    max = 10
+    min = 0
     if num < 0
       num = 0
     elsif
