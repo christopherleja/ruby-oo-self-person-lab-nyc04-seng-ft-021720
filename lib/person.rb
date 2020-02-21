@@ -40,7 +40,7 @@ class Person
   end
 
   def happiness_change(num)
-    
+    self.happiness + 
   end
 
   def take_bath
