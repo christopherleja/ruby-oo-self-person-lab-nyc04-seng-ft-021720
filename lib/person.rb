@@ -40,11 +40,15 @@ class Person
   end
 
   def happiness_change(change_amount)
-    self.happiness + change_amount
+    self.happiness = @happiness + change_amount
+  end
+  
+    def hygiene_change(change_amount)
+    self.hygiene = @hygiene + change_amount
   end
 
   def take_bath
-    @hygiene += 4
+    hygiene_change(4)
     "♪ rub a dub just relaxing in the tub ♫"
   end
   
