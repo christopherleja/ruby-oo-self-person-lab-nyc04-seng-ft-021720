@@ -57,6 +57,8 @@ class Person
     hygiene_change(-3)
     "♪ another one bites the dust ♫"
   end
+  
+  def call_friend(person_instance)
 
   def limit(num)
     min = 0
