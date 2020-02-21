@@ -47,13 +47,13 @@ class Person
   end
 
   def limit(num)
-    max = 10
     min = 0
-    if num < 0
-      0
-    elsif
-      num > 10
+    max = 10
+    if num > 10
       10
+    elsif
+      num < 0
+      0
     else
       num
     end
