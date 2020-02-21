@@ -72,7 +72,9 @@ class Person
     elsif topic == "weather"
       self.happiness_change(1)
       person_instance.happiness_change(1)
-      ""
+      "blah blah sun blah rain"
+    else
+      
     
   end
 
