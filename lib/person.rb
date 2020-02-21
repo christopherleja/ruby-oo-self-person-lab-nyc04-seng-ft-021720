@@ -39,7 +39,8 @@ class Person
     'all about the benjamins'
   end
 
-  def happiness_change
+  def happiness_change(num)
+    
   end
 
   def take_bath
