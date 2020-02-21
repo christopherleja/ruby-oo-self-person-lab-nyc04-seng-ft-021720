@@ -74,8 +74,8 @@ class Person
       person_instance.happiness_change(1)
       "blah blah sun blah rain"
     else
-      
-    
+      "blah blah blah blah blah"
+    end
   end
 
   def limit(num)
