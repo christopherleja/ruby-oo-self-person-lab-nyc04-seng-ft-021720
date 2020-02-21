@@ -11,7 +11,11 @@ class Person
   end
   
   def happiness(new_happiness)
-    
+    @happiness = limit(new_happiness)
+  end
+  
+  def hygiene(new_hygiene)
+    @hygiene = limit(new_hygiene)
   end
   
   def clean?
@@ -42,7 +46,7 @@ class Person
     "♪ another one bites the dust ♫"
   end
 
-  def hygiene=(integer)
+  def limit=(integer)
     if integer < 0
       hygiene = 0
     elsif
