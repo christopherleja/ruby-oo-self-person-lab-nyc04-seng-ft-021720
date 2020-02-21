@@ -59,7 +59,4 @@ class Person
     end
   end
   
-  def incrementer(integer)
-    
-  end
 end
