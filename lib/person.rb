@@ -60,7 +60,7 @@ class Person
   
   def call_friend(person_instance)
     self.happiness_change(3)
-    
+    person_instance.happiness_change(3)
   end
 
   def limit(num)
