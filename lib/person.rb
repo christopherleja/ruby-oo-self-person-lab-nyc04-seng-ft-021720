@@ -67,6 +67,9 @@ class Person
   def start_conversation(person_instance, topic)
     if topic == "politics"
       self.happiness_change(-2)
+      person_instance.happiness_change(-2)
+      
+    elsif topic == "weather"
     
   end
 
