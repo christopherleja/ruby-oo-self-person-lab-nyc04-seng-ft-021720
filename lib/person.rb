@@ -49,7 +49,7 @@ class Person
 
   def take_bath
     hygiene_change(4)
-    '♪ Rub a dub just relaxing in the tub ♫'
+    '♪ Rub-a-dub just relaxing in the tub ♫'
   end
   
   def work_out
