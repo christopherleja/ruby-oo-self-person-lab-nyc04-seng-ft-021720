@@ -10,6 +10,10 @@ class Person
     @hygiene = 8
   end
   
+  def happiness(new_happiness)
+    
+  end
+  
   def clean?
     if @hygiene > 7
       true
