@@ -14,7 +14,7 @@ class Person
     @happiness = limit(new_happiness)
   end
   
-  def hygiene(new_hygiene)
+  def hygiene=(new_hygiene)
     @hygiene = limit(new_hygiene)
   end
   
