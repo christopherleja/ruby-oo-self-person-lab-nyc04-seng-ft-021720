@@ -50,10 +50,10 @@ class Person
     max = 10
     min = 0
     if num < 0
-      num = 0
+      0
     elsif
       num > 10
-      num = 10
+      10
     else
       num
     end
