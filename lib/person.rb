@@ -68,8 +68,11 @@ class Person
     if topic == "politics"
       self.happiness_change(-2)
       person_instance.happiness_change(-2)
-      
+      "blah blah partisan blah lobbyist"
     elsif topic == "weather"
+      self.happiness_change(1)
+      person_instance.happiness_change(1)
+      ""
     
   end
 
