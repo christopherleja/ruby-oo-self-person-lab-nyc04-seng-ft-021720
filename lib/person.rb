@@ -39,6 +39,9 @@ class Person
     'all about the benjamins'
   end
 
+  def happiness_change
+  end
+
   def take_bath
     @hygiene += 4
     "♪ rub a dub just relaxing in the tub ♫"
